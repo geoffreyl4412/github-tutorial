@@ -25,7 +25,8 @@ Git and github are may have similar names, but they are two _very_ different thi
 
 ---
 ## Repository Setup
-
+**Making the Repository:**  
+To set up your repository, you first make your file. Then you **must** `cd` into it. After you do this, use `git init` to initialize git for version control and now it's a repo! You can make a README.md file and tupe some things down.
 
 
 ---
