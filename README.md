@@ -20,7 +20,8 @@ Git and github are may have similar names, but they are two _very_ different thi
 
 ---
 ## Initial Setup
-
+To get started, make a github account using your hstat email. Then, go to cloud9 and connect github to it. After that, you make a new workspace, fill out the info on it, and then create it.  
+In order to create an SSH key 
 
 
 ---
@@ -33,7 +34,7 @@ After some edits on your README.md file, you should probably add your changes. U
 When you want to save, use `git commit -m "message"`. This makes a save file that shows the changes made from what you did after the previous commit.
 
 **Remote Repo on Github**  
-To keep track of your commits, you have to make a remote repo on your github. After setting up your account and creating the SSH key, go and make a new repo on github. From there, the repo name **has** to be the same name as the repo you want to `push` into. After creating the repo, you should copy and paste the code for _pushing into an existing repository_ in SSH one at a time. The first one enables the repos to be connected. The second one brings your changes up to the remote repo
+To keep track of your commits, you have to make a remote repo on your github. After setting up your account and creating the SSH key, go and make a new repo on github. From there, the repo name **has** to be the same name as the repo you want to `push` into. After creating the repo, you should copy and paste the code for _pushing into an existing repository_ in SSH one at a time. The first one enables the repos to be connected. The second one brings your changes up to the remote repo. Now you can push your changes to your remote!
 
 ---
 ## Workflow & Commands
