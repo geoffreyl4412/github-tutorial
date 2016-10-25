@@ -38,3 +38,7 @@ To keep track of your commits, you have to make a remote repo on your github. Af
 
 ---
 ## Workflow & Commands
+`git status` is very helpful because it checks to see what you've edited and what you've added to the stage. You can (and should) always use this command if you're not sure if you've added or committed yet.  
+`git add` adds the selected file into the staging area. This file can still be edited, as it has not been saved yet, but remember to add it back later. You should **always** use `git add` whenever you make a change to a file.  
+`git commit` saves the selected file. This allows you to look back at what you've modified when you view your past commits. You should use this command whenever you are ready to save and after `git add`. If you don't do `git add`, there would be nothing to save or commit.  
+`git push` brings the commits you've made from the local repo to the remote repo. This is very useful, as others might want to fork or clone your repo, or you lose your local repo. The things you've made in th local should be in the remote, as long as you `push` those changes. Use this command whenever you've committed so that the most recent change gets brought up.
