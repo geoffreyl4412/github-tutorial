@@ -28,10 +28,9 @@ Git and github are may have similar names, but they are two _very_ different thi
 **Making the Repository:**  
 To set up your repository, you first make your folder. Then you **must** `cd` into it. After you do this, use `git init` to initialize git for version control and now it's a repo! You can make a README.md file and type some things down.
 
-**Adding and Commiting**  
-After some edits on your README.md file, what you want to do is to add your changes to the staging area. Use `git add file`, to add a specific file to the stage, or `git add .`, which adds the current file you're in to the stage. You can still edit the file after adding to the stage, but **remember** to do `git add .` after!  
-When you want to save, use `git commit -m "message"`. The message should be in the present tense and short, but long enough to explain what you did.
-
+**Adding and Committing**  
+After some edits on your README.md file, you should probably add your changes. Use `git add file` or `git add .` to do that. You can still edit the file after adding, but **remember** to add it again after!  
+When you want to save, use `git commit -m "message"`. This makes a save file that shows the changes made from what you did after the previous commit.
 
 ---
 ## Workflow & Commands
