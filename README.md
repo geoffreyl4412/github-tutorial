@@ -32,5 +32,8 @@ To set up your repository, you first make your folder. Then you **must** `cd` in
 After some edits on your README.md file, you should probably add your changes. Use `git add file` or `git add .` to do that. You can still edit the file after adding, but **remember** to add it again after!  
 When you want to save, use `git commit -m "message"`. This makes a save file that shows the changes made from what you did after the previous commit.
 
+**Remote Repo on Github**  
+To keep track of your commits, you have to make a remote repo on your github. After setting up your account and creating the SSH key, go and make a new repo on github. From there, the repo name **has** to be the same name as the repo you want to `push` into. After creating the repo, you should copy and paste the code for _pushing into an existing repository_ in SSH one at a time. The first one enables the repos to be connected. The second one brings your changes up to the remote repo
+
 ---
 ## Workflow & Commands
