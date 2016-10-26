@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <title>Github Tutorial by geoffreyl4412</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="inner">
+
+        <header>
+          <h1>Github Tutorial</h1>
+          <h2>It&#39;s just the beGITning</h2>
+        </header>
+
+        <section id="downloads" class="clearfix">
+          <a href="https://github.com/geoffreyl4412/github-tutorial/zipball/master" id="download-zip" class="button"><span>Download .zip</span></a>
+          <a href="https://github.com/geoffreyl4412/github-tutorial/tarball/master" id="download-tar-gz" class="button"><span>Download .tar.gz</span></a>
+          <a href="https://github.com/geoffreyl4412/github-tutorial" id="view-on-github" class="button"><span>View on GitHub</span></a>
+        </section>
+
+        <hr>
+
+        <section id="main_content">
+          <h1>
+<a id="github-tutorial" class="anchor" href="#github-tutorial" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>GitHub Tutorial</h1>
+
+<p><em>by Geoffrey Lam</em></p>
+
+<hr>
+
+<h2>
+<a id="git-vs-github" class="anchor" href="#git-vs-github" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Git vs. GitHub</h2>
+
+<p>Git and github may have similar names, but they are two <em>very</em> different things. Git is the software that keeps snapshots of your code. On Github, the code gets stored into the cloud. Listed below are some facts and differences:</p>
+
+<p><strong>Git</strong></p>
+
+<ul>
+<li>Clone or fork the same project and modify it</li>
+<li>Uses version control</li>
+<li>User friendly</li>
+<li>Internet isn't needed</li>
+<li>Doesn't require Github</li>
+</ul>
+
+<p><strong>Github</strong></p>
+
+<ul>
+<li>Others can work on the same file</li>
+<li>Can easily see commits made</li>
+<li>Internet is needed and is public</li>
+<li>Requires Github</li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="initial-setup" class="anchor" href="#initial-setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Initial Setup</h2>
+
+<p>To get started, make a github account using your hstat email. Then, go to cloud9 and connect github to it. After that, you make a new workspace, fill out the info on it, and then create it.<br>
+In order to create an SSH key </p>
+
+<hr>
+
+<h2>
+<a id="repository-setup" class="anchor" href="#repository-setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Repository Setup</h2>
+
+<p><strong>Making the Repository:</strong><br>
+To set up your repository, you first make your folder. Then you <strong>must</strong> <code>cd</code> into it. After you do this, use <code>git init</code> to initialize git for version control and now it's a repo! You can make a README.md file and type some things down.</p>
+
+<p><strong>Adding and Committing</strong><br>
+After some edits on your README.md file, you should probably add your changes. Use <code>git add file</code> or <code>git add .</code> to do that. You can still edit the file after adding, but <strong>remember</strong> to add it again after!<br>
+When you want to save, use <code>git commit -m "message"</code>. This makes a save file that shows the changes made from what you did after the previous commit.</p>
+
+<p><strong>Remote Repo on Github</strong><br>
+To keep track of your commits, you have to make a remote repo on your github. After setting up your account and creating the SSH key, go and make a new repo on github. From there, the repo name <strong>has</strong> to be the same name as the repo you want to <code>push</code> into. After creating the repo, you should copy and paste the code for <em>pushing into an existing repository</em> in SSH one at a time. The first one enables the repos to be connected. The second one brings your changes up to the remote repo. Now you can push your changes to your remote!</p>
+
+<hr>
+
+<h2>
+<a id="workflow--commands" class="anchor" href="#workflow--commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Workflow &amp; Commands</h2>
+
+<p><code>git status</code> is very helpful because it checks to see what you've edited and what you've added to the stage. You can (and should) always use this command if you're not sure if you've added or committed yet.<br>
+<code>git add</code> adds the selected file into the staging area. This file can still be edited, as it has not been saved yet, but remember to add it back later. You should <strong>always</strong> use <code>git add</code> whenever you make a change to a file.<br>
+<code>git commit</code> saves the selected file. This allows you to look back at what you've modified when you view your past commits. You should use this command whenever you are ready to save and after <code>git add</code>. If you don't do <code>git add</code>, there would be nothing to save or commit.<br>
+<code>git push</code> brings the commits you've made from the local repo to the remote repo. This is very useful, as others might want to fork or clone your repo, or you lose your local repo. The things you've made in th local should be in the remote, as long as you <code>push</code> those changes. Use this command whenever you've committed so that the most recent change gets brought up.</p>
+        </section>
+
+        <footer>
+          Github Tutorial is maintained by <a href="https://github.com/geoffreyl4412">geoffreyl4412</a><br>
+          This page was generated by <a href="https://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
+        </footer>
+
+        
+      </div>
+    </div>
+  </body>
+</html>
