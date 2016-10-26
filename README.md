@@ -4,7 +4,7 @@ _by Geoffrey Lam_
 
 ---
 ## Git vs. GitHub
-Git and github may have similar names, but they are two _very_ different things. Git is the software that keeps snapshots of your code. On Github, the code gets stored into the cloud. The differences are listed below:
+Git and github may have similar names, but they are two _very_ different things. Git is the software that keeps snapshots of your code. On Github, the code gets stored into the cloud. Listed below are some facts and differences:
 
 **Git**
 * Clone or fork the same project and modify it
@@ -14,7 +14,6 @@ Git and github may have similar names, but they are two _very_ different things.
 * Doesn't require Github
 
 **Github**
-* 
 * Others can work on the same file
 * Can easily see commits made
 * Internet is needed and is public
