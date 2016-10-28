@@ -22,7 +22,7 @@ Git and github may have similar names, but they are two _very_ different things.
 ---
 ## Initial Setup
 To get started, make a github account using your hstat email. Then, go to cloud9 and connect github to it. After that, you make a new workspace, fill out the info on it, and then create it.  
-In order to create an SSH key 
+In order to create an SSH key between Github and cloud9 you need to go to settings by clicking on your profile icon. Then in the Personal Settings section, clcik on SSH and GPG keys. Create a new SSH key **(not GPG)** and name the title "cloud9". After that, go to your cloud9 tab and click the gear icon. Go to SSH Keys, copy your SSH key, and paste that into your Github. Then you add the SSH key. Go back to cloud9 and open the github-learning IDE. In there, type `ssh -T git@github.com` and this should pop up:`Hi <your username>! You've successfully authenticated, but GitHub does not provide shell access._` which just means that it worked.
 
 
 ---
